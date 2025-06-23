@@ -1,8 +1,8 @@
 import {defineStore} from "pinia";
 import {computed, ref} from "vue";
-import type {TaskViewModel} from "../types/task.type.ts";
 import type {CreateTaskViewModel} from "../models/create-task.model.ts";
 import {tasksService} from "../services/tasks.service.ts";
+import type {TaskViewModel} from "../models/task.model.ts";
 
 export const useTasksStore = defineStore('tasks', () => {
   const tasks = ref<TaskViewModel[]>([]);

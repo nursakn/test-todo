@@ -1,9 +1,9 @@
 import type {TaskDto} from "../api/dto/task.dto.ts";
-import type {TaskViewModel} from "../types/task.type.ts";
 import type {CreateTaskViewModel} from "../models/create-task.model.ts";
 import type {CreateTaskDto} from "../api/dto/create-task.dto.ts";
 import type {UpdateTaskDto} from "../api/dto/update-task.dto.ts";
 import type {DeleteTaskDto} from "../api/dto/delete-task.dto.ts";
+import type {TaskViewModel} from "../models/task.model.ts";
 
 export const tasksTransformer = {
   taskFromDto(taskDto: TaskDto): TaskViewModel {

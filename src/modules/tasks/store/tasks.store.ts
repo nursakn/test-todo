@@ -26,6 +26,7 @@ export const useTasksStore = defineStore('tasks', () => {
 
   async function createTask(task: CreateTaskViewModel) {
     await tasksService.createTask(task);
+    await loadTasks();
   }
 
   async function deleteTask(task: TaskViewModel) {

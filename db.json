@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "title": "Review pull requests",
+      "description": "Review and merge pending pull requests",
+      "done": false,
+      "id": "2"
+    },
+    {
+      "title": "Update dependencies",
+      "description": "Update project dependencies to latest versions",
+      "done": false,
+      "id": "3"
+    }
+  ]
+}

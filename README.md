@@ -1,5 +1,49 @@
-# Vue 3 + TypeScript + Vite
+# Task Manager Application
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A single-page application (SPA) for managing tasks built with Vue 3 and Composition API.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## How to Run
+
+1. Clone the repository
+2. Install dependencies:
+   ```
+   npm install
+   ```
+   or
+   ```
+   pnpm install
+   ```
+3. Start the development server:
+   ```
+   npm run dev
+   ```
+   or
+   ```
+   pnpm dev
+   ```
+4. Open your browser and navigate to the URL shown in the terminal (typically http://localhost:5173)
+
+## Features Implemented
+
+- **Task List Display**:
+  - View all tasks with their titles, descriptions, and completion status
+  - Loading indicator during API requests
+  - Error handling for failed API requests
+
+- **Task Management**:
+  - Toggle task completion status with checkboxes
+  - Delete tasks with a delete button
+  - Reload task list manually
+
+- **API Integration**:
+  - Full integration with RESTful API endpoints
+  - Error handling for API requests
+
+## Technologies Used
+
+- **Vue 3** with Composition API for UI
+- **Pinia** for state management
+- **Axios** for API requests
+- **Vue Router** for navigation
+- **TypeScript** for type safety
+- **Vite** as the build tool
